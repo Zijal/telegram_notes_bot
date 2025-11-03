@@ -14,7 +14,7 @@ from telegram.ext import (
 # -----------------------------
 # 🔹 تنظیمات
 # -----------------------------
-BOT_TOKEN = "8404814757:AAG0ZYVno-X8kiPNty44Mso_fSsjrHrSMDE"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 DB_PATH = os.path.join(os.path.dirname(__file__), "notes_bot.db")
 
 
