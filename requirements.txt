@@ -1,3 +1,6 @@
 python-telegram-bot==20.6
 nest_asyncio
 aiosqlite
+python-dotenv
+aiofiles
+Pillow
